@@ -24,7 +24,6 @@ public class Consumer extends Thread{
         }
     }
     private void consume() throws Exception {
-
        while(!list.isEmpty()){
            Thread.sleep(1000);
            new Database().insertLines(list.get(0));
