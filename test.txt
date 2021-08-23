@@ -1,0 +1,17 @@
+Zoho incubation
+This is Deepak.
+Most of the threading problems are
+generally of the category of Producer
+consumer pattern where one thread is
+producing data and other thread consume
+that data.
+We must know how to establish
+intercommunication between
+threads to solve this problem.
+In this example program, wait() and notify() methods are
+called inside deliver() and receive() method.
+Both methods enable Thread1 to notify Thread2 after producing
+data and wait until Thread2 complete using.
+In the same way, Thread2 after using data notifies
+Thread1 and waits until Thread1 produces and delivers
+the next data. Thus, the output comes in a synchronized form.
