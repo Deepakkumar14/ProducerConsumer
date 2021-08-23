@@ -8,6 +8,7 @@ public class Consumer extends Thread{
         this.list=list;
     }
 
+
     public void run(){
         try{
             synchronized (list){
